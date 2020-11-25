@@ -1,0 +1,105 @@
+.face{
+  width : 450px;
+  height : 250px;
+  margin : auto;
+  position : absolute;
+  border : 1px solid black;
+  bbox-shadow : 0px 80px 100px 50px #272727;
+  transform : rotate(0deg);
+  }
+.face:hover{
+    transform : rotate(10deg);
+    transition-duration : 300ms;
+  }
+#recto{
+  top : 0;
+  left : 0;
+  right : 0;
+  bottom : 0;
+  background-image : url("ItachiUchiha.jpg");
+  background-size : cover;
+  opacity : 0.8;
+  transform : rotate(-5deg);
+}
+#verso{
+  top : 0;
+  left : 0;
+  right : 0;
+  bottom : 0;
+  background-color : #ebebeb66;
+  background-size : cover;
+  display : flex;
+  flex-direction : column;
+  transform : rotate(5deg);
+}
+#corpse{
+  width : 100%;
+  height : 100%;
+  position : absolute;
+  margin : auto;
+  top : 0;
+  left : 0;
+  right : 0;
+  bottom : 0;
+  background-image : url("Amaterasu.png");
+  background-size : cover;
+  background-repeat : no-repeat;
+}
+#recto:hover{
+
+}
+#top{
+  width : 100%;
+  height : 25%;
+  display : flex;
+  flex-direction : column;
+}
+#logoContainer{
+  width : 16%;
+  height : 30%;
+  position : absolute;
+  background-image : url("MS.png");
+  background-size : cover;
+  background-repeat : no-repeat;
+  left : 3px;
+  top : 3px;
+}
+#titleContainer{
+  width : 85%;
+  height : 25%;
+  left : 17%;
+  position : absolute;
+}
+#LogoTitle{
+  margin-left : 0px;
+  font-size : 1.5em;
+  font-family : Segoe UI;
+}
+#middle{
+  width : 100%;
+  height : 73%;
+}
+#name{
+  font-family : Trebuchet MS;
+  color : #b50601;
+  text-align : right;
+  font-style : normal;
+  font-size : 1.2em;
+  margin-right : 10px;
+}
+.information{
+  font-family : Trebuchet MS;
+  color : black;
+  font-size : 0.9em;
+  text-align : right;
+  margin-right : 10px;
+}
+#function, #email, #facebook, #phone{
+  font-style : italic;
+  text-decoration : underline;
+}
+#bottom{
+  width : 100%;
+  height : 2%;
+  background-color : #b50601;
+}
